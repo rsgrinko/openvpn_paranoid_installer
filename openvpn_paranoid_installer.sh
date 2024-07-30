@@ -238,11 +238,11 @@ else
 		yum install openvpn iptables openssl ca-certificates -y
 	fi
 	# Get easy-rsa
-	EASYRSAURL='https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.7/EasyRSA-3.0.7.tgz'
+	EASYRSAURL='https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.0/EasyRSA-3.2.0.tgz'
 	wget -O ~/easyrsa.tgz "$EASYRSAURL" 2>/dev/null || curl -Lo ~/easyrsa.tgz "$EASYRSAURL"
 	tar xzf ~/easyrsa.tgz -C ~/
-	mv ~/EasyRSA-3.0.7/ /etc/openvpn/
-	mv /etc/openvpn/EasyRSA-3.0.7/ /etc/openvpn/easy-rsa/
+	mv ~/EasyRSA-3.2.0/ /etc/openvpn/
+	mv /etc/openvpn/EasyRSA-3.2.0/ /etc/openvpn/easy-rsa/
 	chown -R root:root /etc/openvpn/easy-rsa/
 	rm -f ~/easyrsa.tgz
 	cd /etc/openvpn/easy-rsa/
@@ -250,7 +250,7 @@ else
 	./easyrsa init-pki
 	./easyrsa --batch build-ca nopass
   #./easyrsa gen-dh
-  openssl dhparam -out /etc/openvpn/dh.pem 1024
+  openssl dhparam -out /etc/openvpn/dh.pem 2048
 	echo ""
     read -p "Key size (server): " -e -i 4096 KEYSIZE_SERVER
     read -p "Use password (server)? " -e -i y USEPASS_SERVER
