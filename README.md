@@ -1,4 +1,7 @@
 ## OpenVPN paranoid installer
+### Updates 30.07.2024
+ - Updated EasyRSA to version 3.2.0
+ - Changed DH key size to 2048
 
 ### Description
 
