@@ -11,10 +11,12 @@ This script will let you setup your own VPN server in no more than a minute, eve
 
 This project is a fork <a href="https://github.com/Nyr/openvpn-install" target="_blank">openvpn-install</a> with an emphasis on security.
 
+I forked from <a href="https://github.com/cryptopunks/openvpn_paranoid_installer">https://github.com/cryptopunks/openvpn_paranoid_installer</a> :)
+
 ### Installation
 Run the script and follow the assistant:
 
-`wget https://raw.githubusercontent.com/cryptopunks/openvpn_paranoid_installer/master/openvpn_paranoid_installer.sh --no-check-certificate -O openvpn_paranoid_installer.sh; bash openvpn_paranoid_installer.sh`
+`wget https://raw.githubusercontent.com/rsgrinko/openvpn_paranoid_installer/master/openvpn_paranoid_installer.sh --no-check-certificate -O openvpn_paranoid_installer.sh; bash openvpn_paranoid_installer.sh`
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 
