@@ -20,16 +20,3 @@ Run the script and follow the assistant:
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 
-### Donations
-
-If you want to show your appreciation, you can donate:
-
-(bitcoin)
-```
-1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT
-```
-
-(paypal)<br>
-mathematics1688@gmail.com
-
-Thanks!
