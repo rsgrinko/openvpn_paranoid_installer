@@ -1,22 +1,22 @@
 ## OpenVPN paranoid installer
-### Updates 30.07.2024
- - Updated EasyRSA to version 3.2.0
- - Changed DH key size to 2048
+### Обновления от 30.07.2024
+ - Обновлен EasyRSA до версии 3.2.0
+ - Изменен размер DH ключа до 2048
 
-### Description
+### Описание
 
-OpenVPN installer for Debian, Ubuntu and CentOS.
+OpenVPN установщик для Debian, Ubuntu и CentOS.
 
-This script will let you setup your own VPN server in no more than a minute, even if you haven't used OpenVPN before. It isn't bulletproof but has been designed to be as unobtrusive and universal as possible.
+Этот скрипт позволит вам поднять свой собственный VPN-сервер не более чем за минуту, даже если вы раньше не использовали OpenVPN.
 
-This project is a fork <a href="https://github.com/Nyr/openvpn-install" target="_blank">openvpn-install</a> with an emphasis on security.
+Этот проект является изначально форком <a href="https://github.com/Nyr/openvpn-install" target="_blank">openvpn-install</a> с упором на безопасность.
 
-I forked from <a href="https://github.com/cryptopunks/openvpn_paranoid_installer">https://github.com/cryptopunks/openvpn_paranoid_installer</a> :)
+Я же форкнул из <a href="https://github.com/cryptopunks/openvpn_paranoid_installer">https://github.com/cryptopunks/openvpn_paranoid_installer</a> :)
 
-### Installation
-Run the script and follow the assistant:
+### Установка
+Выполните команду и следуйте дальнейшим инструкциям:
 
 `wget https://raw.githubusercontent.com/rsgrinko/openvpn_paranoid_installer/master/openvpn_paranoid_installer.sh --no-check-certificate -O openvpn_paranoid_installer.sh; bash openvpn_paranoid_installer.sh`
 
-Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
+После завершения вы можете запустить эту команду снова, чтобы добавить больше пользователей, удалить некоторых из них или даже полностью удалить OpenVPN.
 
